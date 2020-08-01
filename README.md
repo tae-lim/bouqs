@@ -5,7 +5,7 @@ Thank you for accepting our coding challenge. Please take as much time as requir
 ## Starter Project Bootstrapped Using:
 - React
 - Webpack
-- SCSS - you can replace this with 
+- SCSS - you can keep or replace with any other style solution
 - Jest
 - ESLint
 - Mock API using json-server and faker
