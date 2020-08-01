@@ -43,7 +43,7 @@ A user will view a category page with a list of products. They will be able to a
 ## Bonus Tasks (not required):
 If you're feeling extra 💪 feel free to do some bonus tasks.
 - Add unit tests
-- Run your code through our listing rules
+- Run your code through our linting rules
 - Store the user’s data so if they return to the site a few days later, they don’t have to start over again 
 
 ## Submission
