@@ -1,4 +1,4 @@
-# FE Code Challenge
+# Front-End Engineering Code Challenge
 
 Thank you for accepting our coding challenge. Please take as much time as required to give us a good indication of your coding strengths. You do not have to follow the project structure or packages given to you. Feel free to organize your project however you'd like, and include/exclude any packages of your choice.
 
