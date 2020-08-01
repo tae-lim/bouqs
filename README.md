@@ -45,3 +45,6 @@ If you're feeling extra 💪 feel free to do some bonus tasks.
 - Add unit tests
 - Run your code through our listing rules
 - Store the user’s data so if they return to the site a few days later, they don’t have to start over again 
+
+## Submission
+Please submit your app either by sending a zip file or by providing a link to a repository, github pages, or other hosting of your choice.
