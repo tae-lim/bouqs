@@ -15,12 +15,14 @@ This project requires [node.js](https://www.npmjs.com/get-npmhttps://www.npmjs.c
 1. Clone this repo
 2. Install project dependencies `npm install`
 3. Start app with mock api `npm run dev:api` 
-  - App - http://localhost:8080/
-  - API - http://localhost:8081/api/categories
+  - Client-side App - http://localhost:8080/
+  - Mock API - http://localhost:8081/api/categories
 
 
 ## Requirements:
-A user will view a category page with a list of products. They will be able to add a product to their shopping cart and view their cart.
+For this challenge, you will fetch data from a mock API, and render a category page with a list of products. A user will be able to add a product to their shopping cart and view their cart. All data required to render a catalog and its products is available via the mock API. 
+
+You may or may not choose to add additional packages for fetching API data, page routing, state management, or styling. We have kept this unopinionated so you can use whatever tools you like best.
 - Category page contains a grid of products for a single category
     - Tip: use `slug` URL query parameter to get a single category from the API
     - Display 3 products per row on desktop
