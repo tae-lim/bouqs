@@ -11,6 +11,7 @@ Thank you for accepting our coding challenge. Please take as much time as requir
 - Mock API using json-server and faker
 
 ## Setup:
+This project requires [node.js](https://www.npmjs.com/get-npmhttps://www.npmjs.com/get-npm)
 1. Clone this repo
 2. Install project dependencies `npm install`
 3. Start app with mock api `npm run dev:api` 
