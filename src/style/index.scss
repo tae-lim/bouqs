@@ -1,3 +1,48 @@
+@import "~bootstrap/scss/bootstrap";
+
 body {
-    font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+//Header Navbar 
+.navbar-expand {
+  justify-content: space-between;
+}
+
+.navbar-items {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+//Products
+.variant-card-wrapper {
+  padding-top: 1rem;
+}
+
+
+//Categories
+.category-sub-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.drop-down {
+  padding-left: 1.25rem;
+  button {
+    line-height: 1.0;
+  }
+}
+
+//Shopping Cart
+.shopping-cart-product-info {
+  display: flex;
+  flex-direction: column;
+  img {
+    height: 5rem;
+    width: 5rem;
+  }
+  span {
+    margin-top: 0.5rem;
+  }
 }
