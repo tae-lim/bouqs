@@ -13,7 +13,7 @@ class App extends React.Component {
 
     this.state = {
       view: 'category',
-      cart: []
+      cart: JSON.parse(localStorage.getItem('cart')) || []
     }
   }
 
@@ -38,6 +38,8 @@ class App extends React.Component {
     if (!duplicateFound) {
       cart.push(variant);
     }
+
+    localStorage.setItem('cart', JSON.stringify(cart));
 
     this.setState({
       cart
