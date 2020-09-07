@@ -9,6 +9,7 @@ const Products = props => {
   const [v, handleVariantChange] = useState({description: '', manufacturer: {name: '', location: ''}});
   const [cartVariant, handleCartVariantChange] = useState({id: '', name: '', img: '', quantity: 0, price: ''});
 
+  //Find variant with lowest regular price. Disregards sale price.
   const determineLowestPriceVariant = variants => {
     return variants.reduce((acc, variant) => {
       if (Number(variant.prices.regular) < Number(acc.prices.regular)) {
@@ -52,6 +53,8 @@ const Products = props => {
           const imageURL = image ? image.url : product.images[0].url;
 
           const price = determineNearestDollarAmt(variant.prices.regular);
+
+          //Variant object for shopping cart
           const cartVariant = {
             id: variant.id,
             name: product.name,
