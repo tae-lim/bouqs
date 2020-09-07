@@ -50,7 +50,7 @@ class ShoppingCart extends React.Component {
             <tbody>
               {this.state.cart.map(variant => {
                 return (
-                  <tr>
+                  <tr key={variant.id}>
                     <td className="shopping-cart-product-info">
                       <img src={variant.img}></img>
                       <span>{variant.name}</span>
