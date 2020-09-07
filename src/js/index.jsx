@@ -39,6 +39,7 @@ class App extends React.Component {
       cart.push(variant);
     }
 
+    //Stores shopping cart variants to local storage
     localStorage.setItem('cart', JSON.stringify(cart));
 
     this.setState({
