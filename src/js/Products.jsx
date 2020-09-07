@@ -42,7 +42,7 @@ const Products = props => {
 
   return (
     <Container>
-      <Row xs={1} sm={3} lg={4}>
+      <Row>
         {props.products.map(product => {
           const variant = determineLowestPriceVariant(product.variants);
           const image = findMatchingImage(product.images, variant.name);
@@ -61,7 +61,7 @@ const Products = props => {
           };
 
           return (
-            <Col className="variant-card-wrapper" key={variant.id} sm={8} md={6} lg={4}>
+            <Col className="variant-card-wrapper" key={variant.id} xs={8} sm={8} md={6} lg={4}>
               <Card as="a" href="#" onClick={() => openProductInfo(product, cartVariant)}>
                 <Card.Img variant="top" src={imageURL} alt={product.image_alt_tags} />
                 <Card.Body>
